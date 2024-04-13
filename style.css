@@ -184,6 +184,7 @@ ul {
 }
 
 ul li {
+    
     position: relative;
     padding-left: 20px;
     margin-bottom: 10px;
@@ -193,5 +194,90 @@ ul li {
 .checkmark {
     position: absolute;
     left: 0;
+}
+
+
+
+/* sectipn 4 */
+
+.section-4 {
+    max-width: 1600px;
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-image {
+    align-items: center;
+    transform: translateX(-200px);
+}
+
+.header-image img {
+    max-width: 300px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.image-info {
+    width: 600px;
+    align-items: center;
+}
+
+.image-info h2,
+.image-info h3,
+.image-info p {
+    margin: 0;
+}
+
+.image-info h2 {
+    color: #333; /* Color del título */
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 5px;
+}
+
+.image-info h3 {
+    color: #666; /* Color del subtítulo */
+    font-size: 20px; /* Tamaño del subtítulo */
+    margin-bottom: 10px;
+}
+
+.image-info p {
+    color: #888; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+.content-text-img {
+    max-width: 1600px;
+    padding: 0px 200px 0px 380px;
+}
+
+.image-grid {
+    display: flex;
+}
+
+.image-item {
+    display: flex;
+    flex: 0 0 30%; /* Ajusta el ancho de cada imagen */
+    margin-bottom: 20px; /* Espacio entre cada imagen */
+
+}
+
+.image-item img {
+    width: 200px;
+    display: flex;
+    padding-right: 20px;
+}
+
+.image-description {
+    padding-top: 60px;
+    width: 150px;
+}
+
+.image-description h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.image-description p {
+    margin: 0;
 }
 
