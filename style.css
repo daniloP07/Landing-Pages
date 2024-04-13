@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(223, 231, 233) ;
+}
+
+
+header {
+    background-color: #2A4C62;
+    color: #080606;
+    text-align:justify;
+    padding: 50px 0;
+}
+
+.header-content {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Envuelve los elementos si no caben en una sola fila */
+    justify-content: space-between;
+}
+.header-info,
+.header-image,
+.tour-form {
+    flex: 1;
+    margin: 0 10px;
+}
+.tour-form {
+    max-width: 300px;
+}
+
+form .form-group {
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #c01d1d;
+    color: #fff;
+    border: none;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.header-info {
+    flex: 1; /* Ocupa todo el espacio restante */
+    padding-right: 20px; /* Espacio entre el título y el formulario */
+    color: #ccc;
+}
+
+.tour-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #c7bfbf;
+    border-radius: 5px;
+    width: 300px; /* Ancho del formulario */
+}
+
+form .form-group {
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #c01d1d;
+    color: #fff;
+    border: none;
+}
+
+.header-image {
+    flex: 1; /* Ocupa todo el espacio restante */
+    display: flex;
+    justify-content: flex-end; /* Alinea la imagen a la derecha */
+}
+
+.header-image img {
+    max-width: 70%;
+    height: auto;
+}
+
+
+/* sectipn 2 */
+
+.section-2 {
+    max-width: 1600px;
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap; /* Envuelve los elementos si no caben en una sola fila */
+    justify-content: space-between;
+}
+
+
+.section-2 .header-info {
+    flex: 1; /* Ocupa todo el espacio restante */
+    padding-right: 20px; /* Espacio entre el título y el formulario */
+    color: #ccc;
+}
+
+.header-image {
+    flex: 1; /* Ocupa todo el espacio restante */
+    display: flex;
+    justify-content: flex-end; /* Alinea la imagen a la derecha */
+}
+
+.header-image img {
+    max-width: 70%;
+    height: auto;
+    margin: 2em;
+}
+.titulo1{
+    color: #2A4C62 ;
+    font-weight: bold;
+    font-size: 20px; /* Aumenta el tamaño de la letra */
+}
+
+.parrafo1{
+    color: #080606;
+    font-size: 24px; /* Aumenta el tamaño de la letra */
+}
+
+/* sectipn 3 */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5%;
+}
+
+.section {
+    flex: 1;
+    padding: 20px;
+
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px; /* Aumenta el tamaño de la letra */
+}
+
+.checkmark {
+    position: absolute;
+    left: 0;
+}
+
