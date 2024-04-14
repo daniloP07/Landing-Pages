@@ -281,3 +281,210 @@ ul li {
     margin: 0;
 }
 
+.content-text-img3 {
+    max-width: 100%; /* Cambiado a 100% para adaptarse al ancho del viewport */
+    padding: 0px 20px; /* Reducido el padding para dispositivos más pequeños */
+    box-sizing: border-box; /* Se asegura de que el padding no afecte al ancho total */
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+/*secion 5 */
+
+.container3 {
+    background-color: #2A4C62;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.content3 {
+    text-align: center;
+}
+
+.image-container3 {
+    margin-top: 20px;
+}
+
+.image-container3 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.demo-button3 {
+    padding: 10px 20px;
+    background-color: #c01d1d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.demo-button3:hover {
+    background-color: #ff3333;
+}
+
+/*secion 6 */
+
+.container4 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.title8 {
+    margin-bottom: 20px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-item4 {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.image-item4 img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* Establece una altura máxima para evitar que las imágenes se estiren demasiado */
+}
+
+ 
+/*sesion7 */ 
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.section-form {
+    flex: 1;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+.title-and-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-and-image img {
+    max-width: 500px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-top: 20px; /* Espacio entre el título y la imagen */
+}
+
+.container5 {
+    background-color: #2A4C62;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.container5 .form-container {
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translateX(200px);
+}
+
+.container5 .form-container {
+    color: #080606;
+}
+
+.container5 .tour-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #c7bfbf;
+    border-radius: 5px;
+    width: 300px; /* Ancho del formulario */
+}
+
+.container5 form .form-group {
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container5 form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.container5 form button {
+    padding: 10px 20px;
+    background-color: #c01d1d;
+    color: #fff;
+    border: none;
+}
+
+/*sesion8 */
+
+/* Estilos generales del pie de página */
+.footer {
+    background-color: #322C2E;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+.footer-info h4 {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Ajusta el tamaño de los iconos de redes sociales según sea necesario */
+}
+
+.footer-functionalities h4 {
+    margin-bottom: 10px;
+}
+
+.footer-functionalities ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footer-functionalities li {
+    margin-bottom: 5px;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+
+/* Estilos adicionales si es necesario */
